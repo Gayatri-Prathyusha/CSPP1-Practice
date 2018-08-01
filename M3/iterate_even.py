@@ -1,7 +1,6 @@
 """EVEN NUMBERS UNTILL 10"""
-i = 2
-# taking the initial value as 1
-while i <= 10:
+X = int(input())
+#taking the value of X
+for i in range(2, X, 2):
     print(i)
-    i = i+2
-print("Good Bye!")
+print("Goodbye!")
