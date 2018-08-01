@@ -1,8 +1,6 @@
 """sum of the values"""
-i = 1
-# initializing the i value
 SUM = 0
-while i <= 6:
+i = 1
+for i in range(1, 7):
     SUM = SUM + i
-    i = i+1
 print(SUM)
