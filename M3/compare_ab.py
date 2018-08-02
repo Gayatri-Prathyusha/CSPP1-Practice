@@ -5,7 +5,7 @@ def compare_ref(parameter):
 # VARA = int(input ("Enter the first variable value"))
 # VARB = int(input("Enter the second variable value"))
 
-VARA = "12"
+VARA = "hello"
 VARB = 12
 
 STRING_TYPE = "string"
