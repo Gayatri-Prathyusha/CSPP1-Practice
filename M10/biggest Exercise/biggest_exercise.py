@@ -9,13 +9,7 @@ def biggest(a_dict):
     returns: The key with the largest number of values associated with it
     '''
     # Your Code Here
-    ma_x = 0
-    for _ in a_dict:
-        t_emp = len(a_dict[_])
-        if t_emp > ma_x:
-            ma_x = t_emp
-            var = _
-    return var
+    return max(a_dict)
 def main():
     """function main"""
     n_str = input()
